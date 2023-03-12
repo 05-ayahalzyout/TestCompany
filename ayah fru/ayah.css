@@ -1,0 +1,51 @@
+/* Styling for Navbar */
+body{
+    display: block;
+    overflow-x: hidden;
+}
+
+nav{
+    background-color: white;
+}
+
+.navbar-brand img {
+    max-height: 60px;
+}
+
+.navbar-brand{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #683aa4;
+}
+
+nav ul li a{
+    color: #a9a9a9;
+    font-size: 22px;
+    margin: auto 10px; 
+}
+
+nav ul li a:hover{
+    color: #683aa4;
+}
+
+.fa-check{
+color: 2FAB73;
+}
+.image{
+    width:"90%";
+}
+
+.fa-solid{
+    color: 2FAB73;
+}
+h3 p{
+    color: 0B132A;
+    
+}
+@media only screen and (min-devce-width: 481px) and (max-devce-width:768){
+    .skshne{
+        width: 40%;
+        height: 10%;
+    }
+}
